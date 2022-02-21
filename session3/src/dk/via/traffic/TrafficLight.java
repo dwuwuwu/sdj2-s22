@@ -9,7 +9,7 @@ public class TrafficLight implements Runnable {
     private List<TrafficLightObserver> observers = new ArrayList<>();
     private LightColor color = GREEN;
 
-    public synchronized void addObserver(TrafficLightObserver observer) {
+    public synchronized void addObserver(TrafficLightObserver observer) throws InterruptedException {
         observers.add(observer);
         observer.onLightChange(color);
     }
