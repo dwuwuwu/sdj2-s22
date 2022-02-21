@@ -7,6 +7,7 @@ public class Driver implements TrafficLightObserver {
         this.car = car;
     }
 
+
     public void onLightChange(LightColor color) {
         switch(color) {
             case GREEN -> {
