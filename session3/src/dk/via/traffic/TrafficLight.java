@@ -32,7 +32,7 @@ public class TrafficLight implements Runnable {
         }
     }
 
-    private void notifyObservers() {
+    private void notifyObservers() throws InterruptedException {
         for (TrafficLightObserver observer : observers) {
             observer.onLightChange(color);
         }
