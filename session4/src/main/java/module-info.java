@@ -1,13 +1,16 @@
-module dk.via {
+module com.example.session4 {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.web;
+
+    requires org.controlsfx.controls;
+    requires com.dlsc.formsfx;
+    requires validatorfx;
+    requires org.kordamp.ikonli.javafx;
+    requires org.kordamp.bootstrapfx.core;
+    requires eu.hansolo.tilesfx;
     requires java.desktop;
 
-    opens dk.via.mvvm.view to javafx.fxml;
-    opens dk.via.mvvm to javafx.fxml;
-
-    exports dk.via.mvvm.view;
-    exports dk.via.mvvm.viewmodel;
-    exports dk.via.mvvm.model;
-    exports dk.via.mvvm;
+    opens com.example.session4 to javafx.fxml;
+    exports com.example.session4;
 }

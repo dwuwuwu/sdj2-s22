@@ -7,6 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="session5" />
+        <module name="session4" />
+        <module name="solutions8" />
+        <module name="solutions7" />
+        <module name="solutions6" />
+        <module name="solutions5" />
+        <module name="solutions" />
+        <module name="session8" />
+        <module name="session7" />
+        <module name="session6" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

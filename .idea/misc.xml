@@ -4,6 +4,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/session5/pom.xml" />
+        <option value="$PROJECT_DIR$/session4/pom.xml" />
+        <option value="$PROJECT_DIR$/session6/pom.xml" />
+        <option value="$PROJECT_DIR$/session7/pom.xml" />
+        <option value="$PROJECT_DIR$/session8/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions5/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions6/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions7/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions8/pom.xml" />
       </list>
     </option>
   </component>
