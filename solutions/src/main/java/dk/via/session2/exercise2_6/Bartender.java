@@ -8,7 +8,7 @@ public class Bartender implements Runnable {
     }
 
     public void run() {
-        while(bar.isOpen()) {
+        while (bar.isOpen()) {
             System.out.println("Pouring...");
             try {
                 //noinspection BusyWait

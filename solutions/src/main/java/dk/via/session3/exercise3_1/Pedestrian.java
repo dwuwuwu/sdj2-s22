@@ -2,7 +2,7 @@ package dk.via.session3.exercise3_1;
 
 public class Pedestrian implements TrafficLightObserver {
     public void onLightChange(LightColor color) {
-        switch(color) {
+        switch (color) {
             case GREEN -> {
                 System.out.println("Wait");
             }

@@ -11,7 +11,7 @@ public class TaxiDriver implements PropertyChangeListener {
     }
 
     public void onLightChange(LightColor color) {
-        switch(color) {
+        switch (color) {
             case GREEN -> {
                 if (!car.isRunning()) car.start();
                 car.accelerate();

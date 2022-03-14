@@ -34,6 +34,7 @@ public class ConvertViewModel {
     public void bindReply(StringProperty property) {
         property.bind(reply);
     }
+
     public void bindError(StringProperty property) {
         property.bind(error);
     }

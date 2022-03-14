@@ -20,7 +20,8 @@ public class MathCommunicator implements Runnable {
             ObjectInputStream input = new ObjectInputStream(inputStream);
             ObjectOutputStream output = new ObjectOutputStream(outputStream);
 
-            loop: while(true) {
+            loop:
+            while (true) {
                 String request = (String) input.readObject();
                 switch (request) {
                     case "+": {

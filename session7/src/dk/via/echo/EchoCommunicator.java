@@ -16,7 +16,7 @@ public class EchoCommunicator implements Runnable {
             OutputStream outputStream = socket.getOutputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             PrintWriter writer = new PrintWriter(outputStream);
-            while(true) {
+            while (true) {
                 String message = reader.readLine();
                 if (message.equals("exit")) {
                     break;

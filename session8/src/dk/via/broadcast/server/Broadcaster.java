@@ -28,7 +28,7 @@ public class Broadcaster {
     }
 
     public synchronized void broadcast(String message) throws IOException {
-        for(Socket socket: sockets) {
+        for (Socket socket : sockets) {
             send(socket, message);
         }
     }

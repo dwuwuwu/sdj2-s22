@@ -9,7 +9,7 @@ public class Start {
 
     private static void runWithLambda() {
         Runnable printer = () -> {
-            for(int i = 0; i < 100; i++) {
+            for (int i = 0; i < 100; i++) {
                 System.out.println(i);
             }
         };

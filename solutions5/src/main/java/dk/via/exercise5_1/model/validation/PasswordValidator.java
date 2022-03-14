@@ -10,7 +10,7 @@ public class PasswordValidator {
         boolean lowercase = false;
         boolean uppercase = false;
         boolean digit = false;
-        for(int i = 0; i < password.length(); i++) {
+        for (int i = 0; i < password.length(); i++) {
             char ch = password.charAt(i);
             lowercase = lowercase || Character.isLowerCase(ch);
             uppercase = uppercase || Character.isUpperCase(ch);

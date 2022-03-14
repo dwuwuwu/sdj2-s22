@@ -10,7 +10,7 @@ public class Mailbox implements Runnable {
 
     public void run() {
         long delay = RUNTIME / count;
-        for(int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i++) {
             try {
                 Thread.sleep(delay);
             } catch (InterruptedException e) {

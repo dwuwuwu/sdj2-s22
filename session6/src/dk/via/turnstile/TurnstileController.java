@@ -7,10 +7,14 @@ public interface TurnstileController {
     String COIN_PROPERTY = "coin";
 
     void lock();
+
     void unlock();
+
     void returnCoin();
+
     void alarm();
 
     void addPropertyChangeListener(String propertyName, PropertyChangeListener listener);
+
     void removePropertyChangeListener(String propertyName, PropertyChangeListener listener);
 }

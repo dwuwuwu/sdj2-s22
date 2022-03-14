@@ -7,10 +7,14 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
 
 public class CreateAccountViewController {
-    @FXML private TextField username;
-    @FXML private TextField password;
-    @FXML private TextField email;
-    @FXML private Label errorLabel;
+    @FXML
+    private TextField username;
+    @FXML
+    private TextField password;
+    @FXML
+    private TextField email;
+    @FXML
+    private Label errorLabel;
     private ViewHandler viewHandler;
     private CreateAccountViewModel viewModel;
     private Region root;

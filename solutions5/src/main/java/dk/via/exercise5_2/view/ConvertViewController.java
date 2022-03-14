@@ -7,9 +7,12 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
 
 public class ConvertViewController {
-    @FXML private TextField requestField;
-    @FXML private TextField replyField;
-    @FXML private Label errorLabel;
+    @FXML
+    private TextField requestField;
+    @FXML
+    private TextField replyField;
+    @FXML
+    private Label errorLabel;
     private ViewHandler viewHandler;
     private ConvertViewModel viewModel;
     private Region root;

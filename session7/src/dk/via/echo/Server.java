@@ -7,7 +7,7 @@ import java.net.Socket;
 public class Server {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(8888);
-        while(true) {
+        while (true) {
             System.out.println("Waiting for connection on " + serverSocket.getLocalPort());
             Socket socket = serverSocket.accept(); // Wait for connection.
             EchoCommunicator communicator = new EchoCommunicator(socket);

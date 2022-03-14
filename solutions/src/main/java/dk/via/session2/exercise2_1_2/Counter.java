@@ -15,13 +15,13 @@ public class Counter {
     }
 
     public void incrementDooku() {
-        synchronized(lockDooku) {
+        synchronized (lockDooku) {
             countDooku++;
         }
     }
 
     public void incrementDracula() {
-        synchronized(lockDracula) {
+        synchronized (lockDracula) {
             countDracula++;
         }
     }

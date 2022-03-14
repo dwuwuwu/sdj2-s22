@@ -14,7 +14,7 @@ public class Bar {
     }
 
     public synchronized void placeBeer(Beer beer) {
-        while(isOpen && beers.size() == capacity) {
+        while (isOpen && beers.size() == capacity) {
             try {
                 wait();
             } catch (InterruptedException e) {
@@ -28,7 +28,7 @@ public class Bar {
     }
 
     public synchronized Beer takeBeer() {
-        while(isOpen && beers.isEmpty()) {
+        while (isOpen && beers.isEmpty()) {
             try {
                 wait();
             } catch (InterruptedException e) {

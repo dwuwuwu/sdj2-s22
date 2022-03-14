@@ -7,10 +7,14 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
 
 public class CalculateViewController {
-    @FXML public TextField firstOperand;
-    @FXML public TextField secondOperand;
-    @FXML public Label result;
-    @FXML private Label error;
+    @FXML
+    public TextField firstOperand;
+    @FXML
+    public TextField secondOperand;
+    @FXML
+    public Label result;
+    @FXML
+    private Label error;
 
     private ViewHandler viewHandler;
     private CalculatorViewModel viewModel;

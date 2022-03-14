@@ -8,7 +8,7 @@ public class Tortoise implements Runnable {
     }
 
     public void run() {
-        while(!race.isFinished()) {
+        while (!race.isFinished()) {
             race.moveTortoise();
             System.out.println("Tortoise: " + race.getTortoiseDistance());
             try {

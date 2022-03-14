@@ -16,7 +16,7 @@ public class Bear implements Runnable {
             System.out.println("Bear is well-rested");
         } catch (InterruptedException e) {
             System.out.println("Bear is angry");
-            for(Thread bear: bears) {
+            for (Thread bear : bears) {
                 if (bear.getState() == Thread.State.TIMED_WAITING) {
                     bear.interrupt();
                 }

@@ -8,7 +8,7 @@ public class SleepyDriver implements TrafficLightObserver {
     }
 
     public void onLightChange(LightColor color) {
-        switch(color) {
+        switch (color) {
             case GREEN -> {
                 car.start();
                 car.accelerate();

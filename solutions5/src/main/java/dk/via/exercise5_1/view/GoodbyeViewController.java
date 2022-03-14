@@ -11,7 +11,8 @@ public class GoodbyeViewController {
     private GoodbyeViewModel goodbyeViewModel;
     private Region root;
 
-    @FXML public Label userCount;
+    @FXML
+    public Label userCount;
 
     public void init(ViewHandler viewHandler, GoodbyeViewModel goodbyeViewModel, Region root) {
         this.viewHandler = viewHandler;

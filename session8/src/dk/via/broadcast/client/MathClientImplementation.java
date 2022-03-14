@@ -11,8 +11,8 @@ import java.net.Socket;
 
 public class MathClientImplementation implements MathClient {
     private static final String EXIT_JSON = """
-    {"operator": "exit"}
-    """;
+            {"operator": "exit"}
+            """;
 
     private final Socket socket;
     private final PrintWriter output;

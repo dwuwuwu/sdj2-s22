@@ -17,7 +17,7 @@ public class LoginCommunicator implements Runnable {
     @Override
     public void run() {
         try {
-            while(true) {
+            while (true) {
                 String method = reader.readLine();
                 if (!method.equals("connect")) {
                     break;

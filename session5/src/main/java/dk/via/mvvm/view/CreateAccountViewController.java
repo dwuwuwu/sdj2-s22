@@ -10,10 +10,14 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
 public class CreateAccountViewController implements PropertyChangeListener {
-    @FXML private TextField username;
-    @FXML private TextField password;
-    @FXML private TextField email;
-    @FXML private Label errorLabel;
+    @FXML
+    private TextField username;
+    @FXML
+    private TextField password;
+    @FXML
+    private TextField email;
+    @FXML
+    private Label errorLabel;
     private ViewHandler viewHandler;
     private CreateAccountViewModel viewModel;
     private Region root;

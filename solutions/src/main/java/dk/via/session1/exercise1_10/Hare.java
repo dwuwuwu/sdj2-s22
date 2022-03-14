@@ -12,7 +12,7 @@ public class Hare implements Runnable {
     }
 
     public void run() {
-        while(!race.isFinished()) {
+        while (!race.isFinished()) {
             race.moveHare();
             System.out.println("Hare: " + race.getHareDistance());
             try {

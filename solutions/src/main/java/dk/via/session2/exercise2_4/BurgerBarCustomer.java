@@ -12,7 +12,7 @@ public class BurgerBarCustomer implements Runnable {
     }
 
     public void run() {
-        for(int i = 0; i < burgersToEat; i++) {
+        for (int i = 0; i < burgersToEat; i++) {
             try {
                 Thread.sleep(1);
             } catch (InterruptedException e) {

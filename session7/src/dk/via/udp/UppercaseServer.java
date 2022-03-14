@@ -6,7 +6,7 @@ import java.net.*;
 public class UppercaseServer {
     public static void main(String[] args) throws IOException {
         DatagramSocket socket = new DatagramSocket(8888);
-        while(true) {
+        while (true) {
             try {
                 byte[] incoming = new byte[1024];
                 DatagramPacket incomingPacket = new DatagramPacket(incoming, incoming.length);

@@ -10,7 +10,7 @@ public class PrintNumbers implements Runnable {
     }
 
     public void run() {
-        for(int i = x; i < y; i++) {
+        for (int i = x; i < y; i++) {
             System.out.println(i);
         }
     }

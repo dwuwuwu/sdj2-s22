@@ -25,7 +25,7 @@ public class ViewHandler {
     }
 
     public void openView(String id) {
-        Region root = switch(id) {
+        Region root = switch (id) {
             case CREATE -> viewFactory.loadCreateAccountView();
             case MESSAGE -> viewFactory.loadMessageView();
             case GOODBYE -> viewFactory.loadGoodbyeView();

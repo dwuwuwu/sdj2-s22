@@ -20,9 +20,10 @@ public class BetterCommunicator implements Runnable {
             OutputStream outputStream = socket.getOutputStream();
             PrintWriter writer = new PrintWriter(outputStream);
 
-            loop: while(true) {
+            loop:
+            while (true) {
                 String request = reader.readLine();
-                switch(request) {
+                switch (request) {
                     case "exit":
                         break loop;
                     case "echo":

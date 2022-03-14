@@ -23,7 +23,7 @@ public class ViewHandler {
     }
 
     public void openView(String id) {
-        Region root = switch(id) {
+        Region root = switch (id) {
             case CALCULATOR -> viewFactory.loadConvertView();
             default -> throw new IllegalArgumentException("Unknown view: " + id);
         };

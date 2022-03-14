@@ -16,9 +16,10 @@ public class TaskListCommunicator implements Runnable {
         try {
             ObjectOutputStream output = new ObjectOutputStream(socket.getOutputStream());
             ObjectInputStream input = new ObjectInputStream(socket.getInputStream());
-            loop: while(true) {
+            loop:
+            while (true) {
                 String method = (String) input.readObject();
-                switch(method) {
+                switch (method) {
                     case "ADD":
                         String text = (String) input.readObject();
                         long estimatedTime = input.readLong();

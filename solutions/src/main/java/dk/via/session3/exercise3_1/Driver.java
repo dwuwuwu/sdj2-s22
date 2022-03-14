@@ -8,7 +8,7 @@ public class Driver implements TrafficLightObserver {
     }
 
     public void onLightChange(LightColor color) {
-        switch(color) {
+        switch (color) {
             case GREEN -> {
                 if (!car.isRunning()) car.start();
                 car.accelerate();

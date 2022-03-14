@@ -8,7 +8,7 @@ public class Customer implements Runnable {
     }
 
     public void run() {
-        while(bar.isOpen()) {
+        while (bar.isOpen()) {
             System.out.println("Waiting...");
             Beer beer = bar.takeBeer();
             if (beer == null) break;

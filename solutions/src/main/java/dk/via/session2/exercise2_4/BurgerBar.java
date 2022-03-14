@@ -32,7 +32,7 @@ public class BurgerBar {
         }
         numberOfBurgers--;
         System.out.println(customerName + " ate a burger. " + numberOfBurgers + " left.");
-        notifyAll ();
+        notifyAll();
     }
 
     public synchronized int getNumberOfBurgers() {

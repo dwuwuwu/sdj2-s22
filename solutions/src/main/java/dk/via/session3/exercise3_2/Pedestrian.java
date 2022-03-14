@@ -5,7 +5,7 @@ import java.beans.PropertyChangeListener;
 
 public class Pedestrian implements PropertyChangeListener {
     public void onLightChange(LightColor color) {
-        switch(color) {
+        switch (color) {
             case GREEN -> {
                 System.out.println("Wait");
             }

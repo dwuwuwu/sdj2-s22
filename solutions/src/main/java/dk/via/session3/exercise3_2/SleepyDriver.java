@@ -11,7 +11,7 @@ public class SleepyDriver implements PropertyChangeListener {
     }
 
     public void onLightChange(LightColor color) {
-        switch(color) {
+        switch (color) {
             case GREEN -> {
                 car.start();
                 car.accelerate();

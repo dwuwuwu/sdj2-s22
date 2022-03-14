@@ -25,7 +25,7 @@ public class UserModelManager implements UserModel {
     }
 
     public User getUser(String username) {
-        for(User user: users) {
+        for (User user : users) {
             if (username.equals(user.getUsername())) {
                 return user;
             }

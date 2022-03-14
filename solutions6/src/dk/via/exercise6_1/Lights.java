@@ -36,13 +36,13 @@ public class Lights {
     }
 
     public void turnOn(String... lights) {
-        for(String light: lights) {
+        for (String light : lights) {
             states.put(light, true);
         }
     }
 
     public void turnOff(String... lights) {
-        for(String light: lights) {
+        for (String light : lights) {
             states.put(light, false);
         }
     }

@@ -26,7 +26,7 @@ public class MessageListener implements Runnable {
     private void listen() throws IOException {
         InputStream inputStream = socket.getInputStream();
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-        while(true) {
+        while (true) {
             String message = reader.readLine();
             if (message == null) {
                 // Connection is closing

@@ -7,8 +7,10 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.Region;
 
 public class MessageViewController {
-    @FXML public Label userCount;
-    @FXML public Label lastUserInfo;
+    @FXML
+    public Label userCount;
+    @FXML
+    public Label lastUserInfo;
     private MessageViewModel messageViewModel;
     private Region root;
 

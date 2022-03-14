@@ -13,7 +13,7 @@ public class Timer {
     public static void main(String[] args) {
         long time = runAndTime(() -> {
             BigInteger factorial = BigInteger.valueOf(1);
-            for(int i = 1; i < 1_000_000; i++) {
+            for (int i = 1; i < 1_000_000; i++) {
                 factorial = factorial.multiply(BigInteger.valueOf(i));
             }
             System.out.println(factorial);

@@ -26,7 +26,8 @@ public class MathCommunicator implements Runnable {
             BufferedReader input = new BufferedReader(new InputStreamReader(inputStream));
             PrintWriter output = new PrintWriter(outputStream);
 
-            loop: while(true) {
+            loop:
+            while (true) {
                 String jsonRequest = input.readLine();
                 Expression expression = gson.fromJson(jsonRequest, Expression.class);
                 System.out.println(expression.getOperator());

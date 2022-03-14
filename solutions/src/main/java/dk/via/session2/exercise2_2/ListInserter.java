@@ -8,7 +8,7 @@ public class ListInserter implements Runnable {
     }
 
     public void run() {
-        for(int i = 0; i < 100_000; i++) {
+        for (int i = 0; i < 100_000; i++) {
             container.add(i);
         }
         System.out.println(container.size());

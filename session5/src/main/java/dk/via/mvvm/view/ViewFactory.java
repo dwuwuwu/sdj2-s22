@@ -35,6 +35,7 @@ public class ViewFactory {
         createAccountViewController.reset();
         return createAccountViewController.getRoot();
     }
+
     public Region loadMessageView() {
         if (messageViewController == null) {
             FXMLLoader loader = new FXMLLoader();

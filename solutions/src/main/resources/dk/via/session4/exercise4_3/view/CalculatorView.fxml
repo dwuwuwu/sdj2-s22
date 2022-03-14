@@ -14,30 +14,30 @@
         <Label>First operand</Label>
         <TextField fx:id="firstOperand"/>
         <VBox.margin>
-            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
         </VBox.margin>
     </HBox>
     <HBox spacing="10.0">
         <Label>Second operand</Label>
-        <TextField fx:id="secondOperand" />
+        <TextField fx:id="secondOperand"/>
         <VBox.margin>
-            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
         </VBox.margin>
     </HBox>
     <HBox spacing="10.">
-        <Button onAction="#add" text="+" />
-        <Button onAction="#subtract" text="-" />
-        <Button onAction="#multiply" text="*" />
-        <Button onAction="#divide" text="/" />
+        <Button onAction="#add" text="+"/>
+        <Button onAction="#subtract" text="-"/>
+        <Button onAction="#multiply" text="*"/>
+        <Button onAction="#divide" text="/"/>
     </HBox>
     <Label fx:id="result">
         <VBox.margin>
-            <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+            <Insets bottom="10.0" left="20.0" right="10.0" top="10.0"/>
         </VBox.margin>
     </Label>
     <Label fx:id="error" textFill="RED">
         <VBox.margin>
-            <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+            <Insets bottom="10.0" left="20.0" right="10.0" top="10.0"/>
         </VBox.margin>
     </Label>
 </VBox>

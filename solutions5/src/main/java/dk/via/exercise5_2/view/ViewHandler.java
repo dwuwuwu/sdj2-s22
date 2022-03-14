@@ -24,7 +24,7 @@ public class ViewHandler {
     }
 
     public void openView(String id) {
-        Region root = switch(id) {
+        Region root = switch (id) {
             case CONVERT -> viewFactory.loadConvertView();
             case LOGS -> viewFactory.loadLogView();
             default -> throw new IllegalArgumentException("Unknown view: " + id);

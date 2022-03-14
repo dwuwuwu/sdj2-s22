@@ -21,7 +21,7 @@ public class WaitingRoom implements Runnable {
     }
 
     public void run() {
-        while(currentTicketNumber < 5) {
+        while (currentTicketNumber < 5) {
             int previousTicket = currentTicketNumber;
             currentTicketNumber++;
             System.out.println("Ding!");
